@@ -1,0 +1,12 @@
+const path = require('path');
+
+module.exports = {
+  entry: './src/main.js',
+  output: {
+    filename: 'app.js',
+    path: path.resolve(__dirname, 'dist')
+  },
+  resolve: {
+    modules: ['lib', 'node_modules'],
+  },
+};

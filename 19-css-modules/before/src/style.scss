@@ -1,0 +1,26 @@
+body {
+  background: yellow;
+}
+
+.bluecircle {
+  border-radius: 50px;
+  background: blue;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.redbox {
+  background: red;
+  width: 100px;
+  height: 100px;
+  display: block;
+  text-align: center;
+  line-height: 100px;
+
+}
+

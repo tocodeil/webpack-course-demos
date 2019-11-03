@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  script(src="#{manifest('runtime.js')}")
+  script(src="#{manifest('main.js')}")

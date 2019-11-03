@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[function(e,n,o){"use strict";o.r(n);o(1);document.querySelector("p").textContent="bye bye from JS"},function(e,n,o){}],[[0,1]]]);

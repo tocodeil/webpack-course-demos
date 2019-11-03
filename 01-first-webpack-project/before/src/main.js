@@ -1,0 +1,1 @@
+panel.write('hello world');

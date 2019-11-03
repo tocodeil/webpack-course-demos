@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Template</title>
+  </head>
+  <body>
+    <h1>Hello Webpack HTML Plugin</h1>
+    <p>I can use any HTML file I want</p>
+    <p>AND it will automatically use lodash template engine so this works:
+    <pre>1 + 1 = <%= 1 + 1 %></pre>
+    <img src="<%= require('../img/puppy1.jpg') %>" />
+    </p>
+    <%= require('html-loader!./footer.html') %>
+  </body>
+</html>

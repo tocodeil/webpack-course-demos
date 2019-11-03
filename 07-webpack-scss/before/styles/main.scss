@@ -1,0 +1,13 @@
+$fg: orange;
+$bg: lightblue;
+
+body {
+  background: url('../img/puppy1.jpg');
+  color: $fg;
+}
+
+.inverse {
+  background: $fg;
+  color: $bg;
+}
+

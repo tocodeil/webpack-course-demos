@@ -1,0 +1,23 @@
+{
+  "name": "after",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "browserlist": "^1.0.1",
+    "browserslist": "^4.6.6",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
